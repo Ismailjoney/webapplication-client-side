@@ -1,0 +1,47 @@
+[
+ {
+  "question": "What is Html ?",
+  "options": [
+    "Hyper text markup language",
+    "javascript library",
+    "nothing"
+  ],
+  "answer" : "Hyper text markup language"
+ },
+ {
+  "question": "What is React ?",
+  "options": [
+    "Hyper text markup language",
+    "A JavaScript library for building user interfaces",
+    "nothing"
+  ],
+  "answer" : "A JavaScript library for building user interfaces"
+ },
+ {
+  "question": "What is css ?",
+  "options": [
+    "casecading style sheet",
+    "javascript library",
+    "nothing"
+  ],
+  "answer" : "casecading style sheet"
+ },
+ {
+  "question": "What is cors ?",
+  "options": [
+    "a baik name",
+    "a middle ware",
+    "a last ware"
+  ],
+  "answer" : "a middle ware"
+ },
+ {
+  "question": "what is  function",
+  "options": [
+    " language",
+    "nothing",
+    "a code block"
+  ],
+  "answer" : "a code block"
+ }
+]
