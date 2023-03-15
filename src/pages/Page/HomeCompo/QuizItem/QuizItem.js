@@ -10,6 +10,7 @@ const QuizItem = () => {
         fetch(`http://localhost:5000/categories`)
             .then(res => res.json())
             .then(data => setCategories(data))
+            
     }, [])
     return (
         <div id="quizitem" className="my-16">

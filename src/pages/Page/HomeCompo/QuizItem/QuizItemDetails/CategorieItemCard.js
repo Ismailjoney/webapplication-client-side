@@ -3,8 +3,9 @@ import { toast } from 'react-toastify';
 
 
 const CategorieItemCard = ({ questions, handleCorrectAns, handleWrongAns }) => {
-    // console.log(questions)
-    const { question, options, answer, _id } = questions;
+    console.log(questions)
+    const { question, options, answer, _id , name} = questions;
+     
 
     const [total,setTotal] = useState(null)
 
@@ -32,12 +33,14 @@ const CategorieItemCard = ({ questions, handleCorrectAns, handleWrongAns }) => {
 
     return (
         <div>
+            <h2 className="text-2xl font-bold my-8 mb-8  text-center">{name}</h2>
             <div className=''>
                 <h2 className="text-2xl font-bold my-2  text-left">{question}</h2>
                 <div className='grid grid-cols-1 gap-4 justify-items-start  lg:grid-cols-1 lg:justify-items-center '>
                 
                     {
-                        options.map( (singleOptions, i)=>  
+                        options &&
+                        options?.map( singleOptions =>  
                             <button
                                 onClick={() => handdleSelect(singleOptions)}
                                 disabled={total}

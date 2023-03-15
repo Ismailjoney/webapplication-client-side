@@ -1,26 +1,26 @@
 [
     {
-        "cid": "10",
+        "cid": 10,
         "cname": "programming"
     },
     {
-        "cid": "20",
+        "cid": 20,
         "cname": "country"
     },
     {
-        "cid": "30",
+        "cid": 30,
         "cname": "capital"
     },
     {
-        "cid": "40",
+        "cid": 40,
         "cname": "river"
     },
     {
-        "cid": "50",
+        "cid": 50,
         "cname": "place"
     },
     {
-        "cid": "60",
+        "cid": 60,
         "cname": "person"
     }
 ]

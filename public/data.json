@@ -1,47 +1,308 @@
 [
- {
-  "question": "What is Html ?",
-  "options": [
-    "Hyper text markup language",
-    "javascript library",
-    "nothing"
-  ],
-  "answer" : "Hyper text markup language"
- },
- {
-  "question": "What is React ?",
-  "options": [
-    "Hyper text markup language",
-    "A JavaScript library for building user interfaces",
-    "nothing"
-  ],
-  "answer" : "A JavaScript library for building user interfaces"
- },
- {
-  "question": "What is css ?",
-  "options": [
-    "casecading style sheet",
-    "javascript library",
-    "nothing"
-  ],
-  "answer" : "casecading style sheet"
- },
- {
-  "question": "What is cors ?",
-  "options": [
-    "a baik name",
-    "a middle ware",
-    "a last ware"
-  ],
-  "answer" : "a middle ware"
- },
- {
-  "question": "what is  function",
-  "options": [
-    " language",
-    "nothing",
-    "a code block"
-  ],
-  "answer" : "a code block"
- }
+  {
+    "name": "Programming Quiz",
+    "selectid": "10",
+    "question": "What is Html ?",
+    "options": [
+      "Hyper text markup language",
+      "javascript library",
+      "nothing"
+    ],
+    "answer": "Hyper text markup language"
+  },
+  {
+    "selectid": "10",
+    "question": "What is React ?",
+    "options": [
+      "Hyper text markup language",
+      "A JavaScript library for building user interfaces",
+      "nothing"
+    ],
+    "answer": "A JavaScript library for building user interfaces"
+  },
+  {
+    "selectid": "10",
+    "question": "What is css ?",
+    "options": [
+      "casecading style sheet",
+      "javascript library",
+      "nothing"
+    ],
+    "answer": "casecading style sheet"
+  },
+  {
+    "selectid": "10",
+    "question": "What is cors ?",
+    "options": [
+      "a baik name",
+      "a middle ware",
+      "a last ware"
+    ],
+    "answer": "a middle ware"
+  },
+  {
+    "selectid": "10",
+    "question": "what is  function",
+    "options": [
+      " language",
+      "nothing",
+      "a code block"
+    ],
+    "answer": "a code block"
+  },
+  {
+    "name": " Country Quiz",
+    "selectid": "20",
+    "question": "What is the name of the largest country in the world?",
+    "options": [
+      "India",
+      "China",
+      "Russia"
+    ],
+    "answer": "Russia"
+  },
+  {
+    "selectid": "20",
+    "question": "What is the name of the smallest country in the world?",
+    "options": [
+      "The Vatican City",
+      "Quater",
+      "poland"
+    ],
+    "answer": "The Vatican City"
+  },
+  {
+    "selectid": "20",
+    "question": "What is the name of the largest city in Australia?",
+    "options": [
+      "Brisbane",
+      "Chittagong",
+      "Brisbanesh"
+    ],
+    "answer": "Brisbane"
+  },
+  {
+    "selectid": "20",
+    "question": "What type of leaf is on the Canadian flag?",
+    "options": [
+      "Naple",
+      "Maple",
+      "none"
+    ],
+    "answer": "Maple"
+  },
+  {
+    "selectid": "20",
+    "question": "What country formerly ruled Iceland?",
+    "options": [
+      "japan",
+      "America",
+      "Denmark"
+    ],
+    "answer": "Denmark"
+  },
+  {
+    "name": "capital  Quiz",
+    "selectid": "30",
+    "question": "What is the capital of Canada?",
+    "options": [
+      "Ottawa",
+      "Otthaw",
+      "Mosko"
+    ],
+    "answer": "Ottawa"
+  },
+  {
+    "selectid": "30",
+    "question": "What is the capital of Thailand?",
+    "options": [
+      "london",
+      "Bangkok",
+      "dubail"
+    ],
+    "answer": "Bangkok"
+  },
+  {
+    "selectid": "30",
+    "question": "What is the capital of the American State of California?",
+    "options": [
+      "Sacramento",
+      "Vatican",
+      "Sacrow"
+    ],
+    "answer": "Sacramento"
+  },
+  {
+    "selectid": "30",
+    "question": "What is the capital of Senegal?",
+    "options": [
+      "Dakar",
+      "Dhaka",
+      "Dohar"
+    ],
+    "answer": "Dakar"
+  },
+  {
+    "selectid": "30",
+    "question": "What is the capital of Russia",
+    "options": [
+      "Mosco",
+      "Malata",
+      "Madagaska"
+    ],
+    "answer": "Mosco"
+  },
+  {
+    "name": "River Quiz",
+    "selectid": "40",
+    "question": "What is the name of the longest river in Africa?",
+    "options": [
+      "The Nile River",
+      "The Roshie River",
+      "The Padma River"
+    ],
+    "answer": "The Nile River"
+  },
+  {
+    "selectid": "40",
+    "question": "Mahadayi river originates in which state?",
+    "options": [
+      "Goa",
+      "Maharashtra",
+      "Karnatak"
+    ],
+    "answer": "Karnatak"
+  },
+  {
+    "selectid": "40",
+    "question": "On which river bank Statue of Unity is built?",
+    "options": [
+      "Kosi",
+      "Narmada",
+      "Krishna"
+    ],
+    "answer": "Narmada"
+  },
+  {
+    "selectid": "40",
+    "question": "Which is the longest tributary in India?",
+    "options": [
+      "Mahananda",
+      "Gandak",
+      "Yamuna"
+    ],
+    "answer": "Yamuna"
+  },
+  {
+    "selectid": "40",
+    "question": ". Cuttak city is located on which of the following river?",
+    "options": [
+      "Mahanadi",
+      "Brahmani",
+      "Poorn"
+    ],
+    "answer": "Mahanadi"
+  },
+  {
+    "name": " Person Quiz",
+    "selectid": "60",
+    "question": "Who is the Pesident of Bangladesh ?",
+    "options": [
+      "Sheikh Hasina",
+      "sheikh Rehana",
+      "Joy"
+    ],
+    "answer": "Sheikh Hasina"
+  },
+  {
+    "selectid": "60",
+    "question": "Who is the cricketer of Bangladesh Cricket ?",
+    "options": [
+      "Sakib Al Hasan",
+      "Messi",
+      "none"
+    ],
+    "answer": "Sakib Al Hasan ?"
+  },
+  {
+    "selectid": "60",
+    "question": "Who is The pesident of Russia?",
+    "options": [
+      "Gavacaskar",
+      "Putin",
+      "tramp"
+    ],
+    "answer": "Putin"
+  },
+  {
+    "selectid": "60",
+    "question": "Who is the pesident of India?",
+    "options": [
+      "Narendo Modi",
+      "Sochine Tendulkar",
+      "Gavagaskar"
+    ],
+    "answer": "Narendo Modi"
+  },
+  {
+    "selectid": "10",
+    "question": "Who is the President Of America ?",
+    "options": [
+      "none",
+      "Kin Jhong Un",
+      "Joe Byden"
+    ],
+    "answer": "Joe Byden"
+  },
+  {
+    "name": "Place Quiz",
+    "selectid": "60",
+    "question": "What is the largest beach in Bangladesh?",
+    "options": [
+      "Cox Bazzar",
+      "Kuakata",
+      "Potengga"
+    ],
+    "answer": "Cox Bazzar"
+  },
+  {
+    "selectid": "60",
+    "question": "What is the Largest mangrove Ban In bangladesh",
+    "options": [
+      "Shalban",
+      "Sundarban",
+      "None"
+    ],
+    "answer": "Sundarban"
+  },
+  {
+    "selectid": "60",
+    "question": "How many time zones does Russia have?",
+    "options": [
+      "11",
+      "12",
+      "14"
+    ],
+    "answer": "11"
+  },
+  {
+    "selectid": "10",
+    "question": "What is the coldest place on Earth?",
+    "options": [
+      "Aljeria",
+      "Antarctica",
+      "none"
+    ],
+    "answer": "Antarctica"
+  },
+  {
+    "selectid": "10",
+    "question": "What country has the most natural lakes?",
+    "options": [
+      "japan",
+      "korea",
+      "canada"
+    ],
+    "answer": "canada"
+  }
 ]
