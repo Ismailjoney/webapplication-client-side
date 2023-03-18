@@ -205,7 +205,7 @@
   },
   {
     "name": " Person Quiz",
-    "selectid": "60",
+    "selectid": "50",
     "question": "Who is the Pesident of Bangladesh ?",
     "options": [
       "Sheikh Hasina",
@@ -215,7 +215,7 @@
     "answer": "Sheikh Hasina"
   },
   {
-    "selectid": "60",
+    "selectid": "50",
     "question": "Who is the cricketer of Bangladesh Cricket ?",
     "options": [
       "Sakib Al Hasan",
@@ -225,7 +225,7 @@
     "answer": "Sakib Al Hasan ?"
   },
   {
-    "selectid": "60",
+    "selectid": "50",
     "question": "Who is The pesident of Russia?",
     "options": [
       "Gavacaskar",
@@ -235,7 +235,7 @@
     "answer": "Putin"
   },
   {
-    "selectid": "60",
+    "selectid": "50",
     "question": "Who is the pesident of India?",
     "options": [
       "Narendo Modi",
@@ -245,7 +245,7 @@
     "answer": "Narendo Modi"
   },
   {
-    "selectid": "10",
+    "selectid": "50",
     "question": "Who is the President Of America ?",
     "options": [
       "none",
@@ -286,7 +286,7 @@
     "answer": "11"
   },
   {
-    "selectid": "10",
+    "selectid": "60",
     "question": "What is the coldest place on Earth?",
     "options": [
       "Aljeria",
@@ -296,7 +296,7 @@
     "answer": "Antarctica"
   },
   {
-    "selectid": "10",
+    "selectid": "60",
     "question": "What country has the most natural lakes?",
     "options": [
       "japan",

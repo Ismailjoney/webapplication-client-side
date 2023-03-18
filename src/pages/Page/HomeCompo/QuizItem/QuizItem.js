@@ -15,7 +15,7 @@ const QuizItem = () => {
     return (
         <div id="quizitem" className="my-16">
             <h2 className='text-5xl font-bold text-center'> Quizes</h2>
-            <div className='grid grid-cols-1     justify-items-start my-10 lg:grid-cols-3 lg:justify-items-center '>
+            <div className='grid grid-cols-1   my-10 lg:grid-cols-3 lg:justify-items-center '>
 
                 {
                     categories.map(categorie =>
