@@ -51,7 +51,7 @@
     "answer": "a code block"
   },
   {
-    "name": " Country Quiz",
+    "name": "Country Quiz",
     "selectid": "20",
     "question": "What is the name of the largest country in the world?",
     "options": [
@@ -204,7 +204,7 @@
     "answer": "Mahanadi"
   },
   {
-    "name": " Person Quiz",
+    "name": "Person Quiz",
     "selectid": "50",
     "question": "Who is the Pesident of Bangladesh ?",
     "options": [
