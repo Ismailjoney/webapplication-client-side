@@ -20,7 +20,7 @@ export const route = createBrowserRouter ([
             {
                 path:'/categorie/:id',
                 element:<PrivetRoute><CategoriesQuizItemDetails></CategoriesQuizItemDetails></PrivetRoute>,
-                loader: ({params}) => fetch(`http://localhost:5000/categoriesItems/${params.id}`)
+                loader: ({params}) => fetch(`https://webapplication-server-side.vercel.app/categoriesItems/${params.id}`)
             },
             {
                 path:'/feedback',

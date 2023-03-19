@@ -18,7 +18,7 @@ const UserFeedBack = () => {
     const { data:  users = [] } = useQuery({
         queryKey: ['userpost', user?.email],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/userpost?email=${user?.email}`)
+            const res = await fetch(`https://webapplication-server-side.vercel.app/userpost?email=${user?.email}`)
             const data = await res.json()
             return data;
         }
@@ -40,7 +40,7 @@ const UserFeedBack = () => {
         }
         event.target.reset()
 
-        fetch(`http://localhost:5000/comment`, {
+        fetch(`https://webapplication-server-side.vercel.app/comment`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -61,7 +61,7 @@ const UserFeedBack = () => {
     const { data:   comments = [],isLoading,refetch } = useQuery({
         queryKey: ['comment', ],
         queryFn: async () => {
-            const res = await fetch('http://localhost:5000/comments')
+            const res = await fetch('https://webapplication-server-side.vercel.app/comments')
             const data = await res.json()
             return data;
         }

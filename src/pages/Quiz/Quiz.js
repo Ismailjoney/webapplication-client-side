@@ -13,7 +13,7 @@ const Quiz = () => {
       })
 
       useEffect(() =>{
-        fetch(`http://localhost:5000/quizone`)
+        fetch(`https://webapplication-server-side.vercel.app/quizone`)
         .then(res => res.json())
         .then(data =>  setQuestionData(data))
       },[])
